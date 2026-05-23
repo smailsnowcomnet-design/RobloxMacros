@@ -1,0 +1,30 @@
+# Сборка и вывод
+bin/
+obj/
+.vs/
+.vscode/
+
+# Файлы приложения
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Профили макросов
+Profiles/
+*.json
+
+# IDE
+.idea/
+*.suo
+*.user
+
+# Операционная система
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.bak
+*.swp
+~*

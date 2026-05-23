@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    
+    <!-- Информация о приложении -->
+    <AssemblyName>RobloxMacro</AssemblyName>
+    <RootNamespace>RobloxMacro</RootNamespace>
+    <Product>Roblox Macro - Anime Vanguards</Product>
+    <Company>Roblox Macro Suite</Company>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <Description>Продвинутое приложение-макрос для игры Roblox (режим Anime Vanguards)</Description>
+    <Authors>Developer</Authors>
+    <StartupObject>RobloxMacro.App</StartupObject>
+  </PropertyGroup>
+
+  <!-- Зависимости -->
+  <ItemGroup>
+  </ItemGroup>
+
+  <!-- Включить все файлы ресурсов -->
+  <ItemGroup>
+    <None Update="Resources/*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
